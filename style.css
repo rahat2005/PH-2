@@ -5,11 +5,26 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 #hello-color{
     color: #8c8c8c;
 }
+#ser-color{
+    color: dodgerblue;
+}
 .half-width{
     width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width1{
+    width: 23%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -23,6 +38,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 85px;
 }
 .link-button{
     text-decoration: none;
@@ -31,4 +47,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.service{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
